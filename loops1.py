@@ -5,7 +5,7 @@ for i in range(0, students_num):
     for i in range (0,marks_num):
         my_mark = float(input(f"student mark {i+1}"))
         student_marks.append(my_mark)
-    average = sum(student_marks) / len(student_marks)
+    average = sum(student_marks) / marks_num
 
     print("average: ",average)
     print("max_student_marks: ",max(student_marks))
